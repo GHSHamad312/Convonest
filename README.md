@@ -29,7 +29,7 @@
 
 ## 📌 About
 
-**ConvoNest** is a full-stack real-time chat application built as a group project by **Team Juice Pilado**. It enables users to chat privately with friends using **end-to-end AES encryption**, ensuring messages remain confidential even in the database.
+**ConvoNest** is a full-stack real-time chat application built as a group project. It enables users to chat privately with friends using **end-to-end AES encryption**, ensuring messages remain confidential even in the database.
 
 Key highlights:
 - 🔐 All messages are **AES-encrypted** before being stored or transmitted
@@ -289,9 +289,8 @@ Client B reads plain text
 
 | Name | Role |
 |---|---|
-| Hammad Ali Shah | Full Stack Developer |
-| [Team Member 2] | [Role] |
-| [Team Member 3] | [Role] |
+| Hamad Ali Shah | Full Stack Developer |
+| Abdul Basit | Frontend and code refactoring |
 
 📧 Contact: [juicepilado@gmail.com](mailto:juicepilado@gmail.com)
 
