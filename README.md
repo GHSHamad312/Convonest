@@ -292,7 +292,6 @@ Client B reads plain text
 | Hamad Ali Shah | Full Stack Developer |
 | Abdul Basit | Frontend and code refactoring |
 
-📧 Contact: [juicepilado@gmail.com](mailto:juicepilado@gmail.com)
 
 ---
 
