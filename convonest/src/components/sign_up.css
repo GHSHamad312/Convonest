@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.hero {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f13 0%, #1a1a2e 50%, #16213e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.inner {
+  width: 480px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 24px;
+  padding: 48px 40px 40px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+}
+
+.reg {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.formdata {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inps {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.inps p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #aaa;
+  letter-spacing: 0.4px;
+}
+
+.formdata input {
+  width: 100%;
+  height: 46px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #e2e2e2;
+  font-size: 14px;
+  font-family: inherit;
+  padding: 0 16px;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.formdata input:focus {
+  border-color: #667eea;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.formdata input::placeholder {
+  color: #555;
+}
+
+/* Terms checkbox row */
+.termsbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.termsbox .check {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  accent-color: #667eea;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.termsbox .terms {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.5;
+}
+
+.termsbox .terms a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.termsbox .terms a:hover {
+  text-decoration: underline;
+}
+
+/* Error / Success messages */
+.error {
+  background: rgba(255, 80, 80, 0.1);
+  border: 1px solid rgba(255, 80, 80, 0.25);
+  color: #ff6b6b;
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.success {
+  background: rgba(82, 196, 26, 0.1);
+  border: 1px solid rgba(82, 196, 26, 0.25);
+  color: #73d13d;
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Submit button */
+.inps button[type="submit"],
+.inps button {
+  width: 100%;
+  height: 48px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: opacity 0.2s, transform 0.1s;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.inps button[type="submit"]:hover,
+.inps button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.inps button[type="submit"]:active,
+.inps button:active {
+  transform: translateY(0);
+}
